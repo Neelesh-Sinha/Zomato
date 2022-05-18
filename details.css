@@ -1,0 +1,117 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration: none;
+}
+/*Header Css*/
+header{
+    height: 60px;
+    width: 100%;
+    background-image: url("imgdi/restaurant4.jpg");
+    /*position: sticky;*/
+    width: 100%;
+    /*border: 2px solid red*/
+}
+#icon{
+    float:left;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+#social{
+    float: right
+}
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+
+/*Seacrh Css*/
+body{
+    background-image: url("imgdi/p2.jpg");
+    color: rgb(182, 79, 0);
+}
+.headingText{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#content{
+    height: 700px;
+    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
+}
+#imgDiv{
+    height: 450px;
+    width: 45%;
+    float: left;
+    border: 8px groove rgb(63, 63, 63);
+}
+#contentDiv{
+    height: 550px;
+    width: 50%;
+    float: left;
+    margin-left: 3%;
+    margin-top: -2%;
+}
+
+#imgDiv > img {
+    height: 450px;
+    width: 100%;
+}
+.feature_container{
+    width: 100%;
+    display: inline-block;
+}
+.feature{
+    float: left;
+    margin-left: 5%;
+}
+.fetIcon{
+    height: 100px;
+    width: 100px;
+    margin-left: 2%;
+}
+.removeMargin{
+    margin-left: -1%;
+}
+h2{
+    color: rgb(4, 186, 10);
+    font-size: 35px;
+    margin-top: -1%;
+}
+.myButton{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    background-color: rgb(53, 53, 53) ;
+    color: rgb(255, 255, 255);
+}
+.checked{
+    color: yellow;
+    font-size: 20px;
+}
+
+   
+
+/*Footer Css*/
+footer{
+    margin-top: 5%;
+    height: 120px;
+    width: 100%;
+    background-image: url("imgdi/restaurant4.jpg");
+    text-align: center;
+}
+#footerText{
+    text-align: center;
+}
+.footDiv{
+    height: 70px;
+    width: 33%;
+    float: left;
+    border-right: 2px solid black;
+}
+.noBorder{
+    border:none
+}

@@ -1,0 +1,140 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration: none;
+}
+/*Header Css*/
+header{
+    height: 60px;
+    width: 100%;
+    background-image: url("imgls/restaurant4.jpg");
+    /*position: sticky;*/
+    width: 100%;
+    /*border: 2px solid red*/
+}
+#icon{
+    float:left;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+#social{
+    float: right
+}
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+
+/*Seacrh Css*/
+body{
+    background-image: url("imgls/p2.jpg");
+    color: rgb(255, 136, 0);
+}
+.headingText{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#content{
+    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
+    /*background-image: url("img/pexels-photo-1415734.webp");*/
+}
+.filterDiv{
+    height: 615px;
+    width: 20%;
+    /*border: 2px solid rgb(103, 103, 103);*/
+    float:left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    background-image: url("imgls/restaurant4.jpg");
+}
+.filterDiv > h2,h3,p{
+    margin-left: 7%;
+}
+.filterDiv > h2,h3{
+    color: rgb(255, 148, 8);
+}
+.contentDiv{
+    /*height: 800px;*/
+    width: 77%;
+    margin-left: 2%;
+    /*border: 2px solid green;*/
+    float:left;
+}
+.contentDiv > h3{
+    margin-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tileContainer{
+    width: 95%;
+    height: 180px;
+    /*border: 2px solid rgb(0, 0, 0);*/
+    box-shadow: 5px 10px 5px rgb(71, 65, 65);
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    background-image: url("imgls/restaurant4.jpg");
+}
+.tileComponent1{ 
+    width: 40%;
+    height: 180%;
+    float: left;
+   
+}
+.tileComponent1>img{
+    width: 100%;
+    height: 180px;
+}
+.tileComponent2{
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 2%;
+    float: left;
+}
+.componentHeading >a {
+    color: rgb(255, 166, 0);
+    font-size: 25px; 
+}
+.componentSubHeading{
+    color: rgb(196, 195, 195);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+}   
+.myButton{
+    height: 35px;
+    width: 130px;
+    font-size: 20px;
+    background-color: rgb(53, 53, 53) ;
+    color: rgb(255, 255, 255);
+}
+.checked{
+    color: yellow;
+    font-size: 20px;
+}
+
+
+
+/*Footer Css*/
+footer{
+    margin-top: 5%;
+    height: 120px;
+    width: 100%;
+    background-image: url("imgls/restaurant4.jpg");
+    text-align: center;
+}
+#footerText{
+    text-align: center;
+}
+.footDiv{
+    height: 70px;
+    width: 33%;
+    float: left;
+    border-right: 2px solid black;
+}
+.noBorder{
+    border:none
+}
